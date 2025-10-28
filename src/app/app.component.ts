@@ -113,9 +113,9 @@ export class AppComponent {
 
     // Upper Header Declaration
     const aoa: any[][] = [
-      ["CUSTOMER NAME", "", customerNamesList[0] || '', "", "PROJECT MANAGER", "VARAD", "CALENDAR DAYS", totalDays],
-      ["RESOURCE NAME", "", "AJIT", "", "APPROVER", "VEDANT", "WEEKLY OFF/HOLIDAYS", holidays],
-      ["FOR MONTH", "", "...", "", "SUBMITTED BY", "AJIT", "WORKED DAYS", workedDays],
+      ["CUSTOMER NAME", "", customerNamesList[0] || '', "", "PROJECT MANAGER", "VARAD", "CALENDAR DAYS", totalDays||''],
+      ["RESOURCE NAME", "", "AJIT", "", "APPROVER", "VEDANT", "WEEKLY OFF/HOLIDAYS", holidays||''],
+      ["FOR MONTH", "", "...", "", "SUBMITTED BY", "AJIT", "WORKED DAYS", workedDays||''],
       ["ROLE", "", "FRONTEND", "", "SUBMISSION DATE", "...", "LEAVES TAKEN", "..."],
       ["", "", "", "", "", "", "OVERTIME DAYS", "..."]
     ];
